@@ -1,0 +1,22 @@
+@S0 = { kick.flac }
+@R0 = { 4 0 512 64 16 }
+@PO0 = {  0 -64 }
+@VAS0 = { 0 }
+
+A t192 v192 @VAS0 @PO0
+A o3c8r4.c8r1
+A r4.
+A c8r8c8c8c8r4.
+A c8r8c8r8c8r8c8r4.
+A r8r2r8
+A c8r8c8c8c8r8c8r4.
+A c8r4. @PO0 @VAS0
+
+B t192 y32 v96
+B o4c2r2
+B c16r16c16r16d16r8.c16r16c16r2.
+B r16
+B c16r16c16r16d16r8.
+B c16r16c16r2.r16
+B c16r16c16r16d16r8.c16r8.c16r4..
+B >b16r4..a16r4..

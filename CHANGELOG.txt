@@ -1,0 +1,98 @@
+March 22 2020 - 2.3.1
+
+* Bump version/copyright year embedded in EXE (was stuck at 2.2.1)
+
+-----
+
+March 3 2020 - 2.3
+
+* Add an Open Recent menu to the File menu
+* Automatically fix maps when tilemap size changes (remove warning about loss of information)
+* Give a warning when switching map types (by saving.) Handle differences between map types better internally so there are fewer problems
+* Minor documentation updates
+* Many bug fixes
+
+-----
+
+October 7 2019 - 2.2.1
+
+* Support for Mac sandbox
+* Some small bugs were fixed
+
+-----
+
+September 7 2019 - 2.2
+
+* Better behaviour of floating selections: changing tools doesn't anchor them
+* Include 3RD_PARTY.txt in Mac distributions
+
+-----
+
+September 7 2019 - 2.1.2.1 (Windows)
+
+* Fix VERSIONINFO for release
+
+-----
+
+September 7 2019 - 2.1.2
+
+* More intuitive behaviour of pasted selections (start new selection if clicking off pasted area with marquee/wand tools)
+* Use D3D on Windows
+* Stop dragging help window if cursor goes offscreen
+* More warnings about tilemap size changing
+
+-----
+
+September 7 2019 - 2.1.1 (Windows)
+
+* Fix tab characters in menus on Windows XP
+
+-----
+
+September 7 2019 - 2.1
+
+* Major speed optimization
+* Respect layer visibility with Test visible layer tools (fill/wand on RMB)
+* Fix pencil tool right click to pick tiles on certain map formats
+* Save screenshots on the desktop
+* Don't clear undo buffers when loading/reloading tiles
+* Fix message boxes on macOS not showing both lines of messages
+* Lots of other fixes
+
+-----
+
+September 6 2019 - 2.0.7 (Linux)
+
+* Tidy up the menu in the Linux version
+
+-----
+
+September 5 2019 - 2.0.6 (Windows)
+
+* Automatically size the quickref window (for an exact fit)
+* Add VERSIONINFO on Windows
+
+-----
+
+September 5 2019 - 2.0.5 (macOS)
+
+* Fix help on Mac (text overflow, use of Ctrl and Alt)
+* Make custom mouse cursor work on Mac
+
+-----
+
+
+September 5 2019 - 2.0.4
+
+* Fixes for macOS
+* Save last used tile path
+
+-----
+
+September 4 2019 - 2.0.3
+
+* Moved "Pixel" status display beside "Level" since they're related
+* Fix some incorrect documentation and add Linux config path
+* Change fill/magic wand "all layers" feature to test visible layers rather than all layers
+* Show a checkbox beside current scale in the Scale menu
+* If you undo all changes, the editor will not say the level has changed
